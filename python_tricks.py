@@ -14,4 +14,9 @@ def change_list_data (data)
     data[:]= ['NEW'] # this will overwrite data in a passed argument'
     data= ['NEW'] # this will change but only within function body / nevertheless you should not modify argument you should return new value
 
+# unpacking list
+def move_position(x, y, z):
+    print (f' moving character to {x} {y} {z}')
+data = [10, 20, 30]
+print(move_position(*data) ) # unpacking 
 
