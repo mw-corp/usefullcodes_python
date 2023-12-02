@@ -7,3 +7,11 @@ print(set(my_list))
 #function to convert string with camel case to separate by space camelCase -> camel Case
 def solution(s):
     return ''.join(' ' + c if c.isupper() else c for c in s)
+
+
+#modyfying passed argument
+def change_list_data (data)
+    data[:]= ['NEW'] # this will overwrite data in a passed argument'
+    data= ['NEW'] # this will change but only within function body / nevertheless you should not modify argument you should return new value
+
+
